@@ -10,25 +10,33 @@
  <body>
     <header class="header">
       <div class="container_header">
-            <div class="header_logo"><a href="#banner_1"><img src="img\headerlogo.svg" alt="logo"></a></div>
+            <div class="header_logo"><a href="#banner_start"><img src="img\headerlogo.svg" alt="logo"></a></div>
             <ul class="menu_link"> 
-                <li1 class="header_link"><a href="#features">features</a></li1>
-                <li2 class="header_link"><a href="#about">about</a></li2>
-                <li3 class="header_link"><a href="#pricing">pricing</a></li3>
-                <li4 class="header_link"><a href="#reviews">reviews</a></li4>
-                <li5 class="header_link"><a href="#contact">contact</a></li5>
-                </div>
+                <li class="header_link"><a href="#features">features</a></li>
+                <li class="header_link"><a href="#about">about</a></li>
+                <li class="header_link"><a href="#pricing">pricing</a></li>
+                <li class="header_link"><a href="#reviews">reviews</a></li>
+                <li class="header_link"><a href="#contact">contact</a></li>
             </div>
-        
     </header>
    
-    <section class="banner_1" id="banner_1">
+    <section class="banner_start" id="banner_start">
         <div class="container_banner">
+          <div class="banner_text">
         <div class="banner_logo"><img src="img\logo.svg" alt="logo"></div>
         <div class="banner_header">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</div>
         <div class="banner_separator"></div>
         <div class="banner_lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
         <button class="banner_download">Download</button>
+      </div>
+      <div class="banner_form_container">
+      <form class="banner_form" action="#" name="banner_form" method="post">
+        <div class="banner_form banner_form_header">Try Your <span class="free"> FREE </span> Trial Today</div>
+        <input class="banner_start_input" type="text" name="Name" placeholder="Name" tabindex="1">
+        <input class="banner_start_input" type="text" name="Email" placeholder="Email" tabindex="2">
+        <input class="banner_start_input" type="text" name="Password" placeholder="Password" tabindex="3">
+        <button class="banner_form_button">Get Started</button>
+      </form>
       </div>
 </section>
 <section class="socials">
@@ -38,15 +46,15 @@
     <div class="socials_lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Aenean euismod bibendum laoreet.</div>
         </div>
-        <ul class="socials_img">
-            <img src="img\facebook_icon1.svg" alt="facebook_icon">
-            <img src="img\twitter_icon.svg" alt="twitter_icon">
-            <img src="img\linkedin_icon.svg" alt="linkedin_icon">
-            <img src="img\pinterest_icon.svg" alt="pinterest_icon">
-            <img src="img\instagram_icon.svg" alt="instagram_icon">
-            <img src="img\github_icon.svg" alt="github_icon">
-            <img src="img\rss_icon.svg" alt="rss_icon"></div>
-          </div>
+        <div class="socials_img">
+            <a class="socials_img_elem" href="#"><img src="img\facebook_icon1.svg" alt="facebook_icon"></a>
+            <a class="socials_img_elem" href="#"><img src="img\twitter_icon.svg" alt="twitter_icon"></a>
+            <a class="socials_img_elem" href="#"><img src="img\linkedin_icon.svg" alt="linkedin_icon"></a>
+            <a class="socials_img_elem" href="#"><img src="img\pinterest_icon.svg" alt="pinterest_icon"></a>
+            <a class="socials_img_elem" href="#"><img src="img\instagram_icon.svg" alt="instagram_icon"></a>
+            <a class="socials_img_elem" href="#"><img src="img\github_icon.svg" alt="github_icon"></a>
+            <a class="socials_img_elem" href="#"><img src="img\rss_icon.svg" alt="rss_icon"></a>
+        </div>
 </div>
 </section>
 </section>
@@ -209,15 +217,28 @@
   </div>
 </div>
 </section>
+<div class="container_contact" id="#contact">
+<div class="contact_header">CONTACT US</div>
+<div class="reviews_separator"></div>
+<div class="contact_lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+<form class="contact_form">
+  <input class="contact_input" type="text" name="Name_contact" placeholder="Name">
+  <input class="contact_input" type="text" name="Email_contact" placeholder="Email">
+  <input class="contact_input" type="text" name="Password" placeholder="Password">
+  <textarea class="contact_message" type="text" name="message" placeholder="Message"></textarea>
+</form>
+  <button class="contact_button">Send Message</button>
+</div>
     <footer class="footer">
             <div class="footer_socials">
-                <img src="img\facebook_icon.svg" alt="">
-                <img src="img\twitter_icon.svg" alt="">
-                <img src="img\linkedin_icon.svg" alt="">
-                <img src="img\pinterest_icon.svg" alt="">
-                <img src="img\instagram_icon.svg" alt="">
-                <img src="img\github_icon.svg" alt="">
-                <img src="img\rss_icon.svg" alt=""></div>
+                <a class="footer_icon" href="#"><img src="img\facebook_icon.svg" alt=""></a>
+                <a class="footer_icon" href="#"><img src="img\twitter_icon.svg" alt=""></a>
+                <a class="footer_icon" href="#"><img src="img\linkedin_icon.svg" alt=""></a>
+                <a class="footer_icon" href="#"><img src="img\pinterest_icon.svg" alt=""></a>
+                <a class="footer_icon" href="#"><img src="img\instagram_icon.svg" alt=""></a>
+                <a class="footer_icon" href="#"><img src="img\github_icon.svg" alt=""></a>
+                <a class="footer_icon" href="#"><img src="img\rss_icon.svg" alt=""></a>
+              </div>
             <div class="footer_text">© 2015 Axure Themes</div>
     </footer> 
-</body> 
+</bo
