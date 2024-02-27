@@ -1104,7 +1104,7 @@ background: #FFF;
     margin-bottom: 16px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 400px) and (max-width: 1024px) {
     .container_banner{
         margin: 0;
     }
@@ -1643,6 +1643,7 @@ background: #FFF;
         scale: 0.7;
     }
 }
+
 @media screen and (max-width: 320px) {
     *{
         margin: 0;
