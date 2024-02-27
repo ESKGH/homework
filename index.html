@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable= no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <title>lesson7</title>
 </head>
@@ -23,7 +24,7 @@
     <section class="banner_start" id="banner_start">
         <div class="container_banner">
           <div class="banner_text">
-        <div class="banner_logo"><img src="img\logo.svg" alt="logo"></div>
+        <div class="banner_logo"></div>
         <div class="banner_header">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</div>
         <div class="banner_separator"></div>
         <div class="banner_lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
@@ -32,12 +33,13 @@
       <div class="banner_form_container">
       <form class="banner_form" action="#" name="banner_form" method="post">
         <div class="banner_form banner_form_header">Try Your <span class="free"> FREE </span> Trial Today</div>
-        <input class="banner_start_input" type="text" name="Name" placeholder="Name" tabindex="1">
-        <input class="banner_start_input" type="text" name="Email" placeholder="Email" tabindex="2">
-        <input class="banner_start_input" type="text" name="Password" placeholder="Password" tabindex="3">
+        <input class="banner_start_input" type="name" name="Name" placeholder="Name" tabindex="1">
+        <input class="banner_start_input" type="email" name="Email" placeholder="Email" tabindex="2">
+        <input class="banner_start_input" type="password" name="Password" placeholder="Password" tabindex="3">
         <button class="banner_form_button">Get Started</button>
       </form>
       </div>
+    </div>
 </section>
 <section class="socials">
   <div class="container_socials">
@@ -59,23 +61,25 @@
 </section>
 </section>
 <section class="features" id="features">
+  <div class="features_container">
     <div class="tabs_buttons">
-    <button class="button_top" id="button_top">tab 1</button>
+    <button class="button_top_active" id="button_top">tab 1</button>
     <button class="button_top" id="button_top">tab 2</button>
     <button class="button_top" id="button_top">tab 3</button>
     </div>
     <div class="tabs_content">
         <div class="tabs_content_left">
             <div class="tabs_content_text">
-                <div class="tabs_content_head_text"><h3>Tabs with soft transitioning effect.</h3></div>
+                <div class="tabs_content_head_text">Tabs with soft transitioning effect.</div>
                     <div class="tabs_content_text_other">
                         <div class="tabs_content_text_1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque  penatibus et magnis dis parturient montes.</p></div>
                         <div class="tabs_content_text_2"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod  bibendum laoreet.</p></div>
                     </div>
+                    <button class="download_button">Download</button>
                 </div>
-        <button class="download_button">Download</button>
         </div>
         <div class="tabs_content_right"><div class="statue_img"> <img src="img\statue.png" alt="statue"> </div></div>
+</div>
 </div>
 </section>
 <section class="awesome" id="about">
@@ -106,7 +110,7 @@
   </section> 
   <section class="container_pricing" id="pricing">
     <div class="container_pricing_content">
-    <div class="pricing_options"><h2>Pricing options</h2></div>
+    <div class="pricing_options"><p>Pricing options</p></div>
     <div class="pricing_separator"></div>
     <div class="pricing_lorem">
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
@@ -217,17 +221,21 @@
   </div>
 </div>
 </section>
-<div class="container_contact" id="#contact">
+<div class="container_contact" id="contact">
 <div class="contact_header">CONTACT US</div>
 <div class="reviews_separator"></div>
 <div class="contact_lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 <form class="contact_form">
-  <input class="contact_input" type="text" name="Name_contact" placeholder="Name">
-  <input class="contact_input" type="text" name="Email_contact" placeholder="Email">
-  <input class="contact_input" type="text" name="Password" placeholder="Password">
-  <textarea class="contact_message" type="text" name="message" placeholder="Message"></textarea>
-</form>
+  <div class="contact_form_left">
+  <input class="contact_input" type="name" name="Name_contact" placeholder="Name">
+  <input class="contact_input" type="email" name="Email_contact" placeholder="Email">
+  <input class="contact_input" type="password" name="Password" placeholder="Password">
+</div>
+<div class="contact_form_right">
+  <textarea class="contact_message" name="message" placeholder="Message"></textarea>
+</div>
   <button class="contact_button">Send Message</button>
+</form>
 </div>
     <footer class="footer">
             <div class="footer_socials">
