@@ -1935,7 +1935,7 @@ background: #FFF;
             font-weight: 400;
             line-height: 16px;
             text-align: left;
-        }
+        
     }
         .download_button{
             margin: 0 auto;
@@ -2279,3 +2279,4 @@ background: #FFF;
         .footer_icon{
             scale: 0.32;
         } 
+    }
