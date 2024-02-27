@@ -1,29 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
-/* @media (max-device-width:1024px) and(min-device-width:321px){
-    .container_header{
-        max-width: 992px;
-        margin: 50px, 16px; 
-    };
-    .banner_start{
-        max-width: 992px;
-        margin: 50px, 16px; 
-    };
-    .container_banner{
-        max-width: 992px;
-        margin: 50px, 16px; 
-    };
-    .banner_form_container{
-        max-width: 992px;
-        margin: 50px, 16px; 
-    };
-    .banner_form_container{
-        scale: 84%;
-    }
-    .banner_text{ 
-        width: 454px;
-    }
 
-} */
+
 * {
     text-decoration: none;
     color: inherit;
@@ -1104,7 +1081,7 @@ background: #FFF;
     margin-bottom: 16px;
 }
 
-@media screen and (min-width: 400px) and (max-width: 1024px) {
+@media (max-device-width:1024px) and(min-device-width:321px) {
     .container_banner{
         margin: 0;
     }
