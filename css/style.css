@@ -1692,6 +1692,7 @@ background: #FFF;
             margin: 0;
             width: 288px;
             padding: 0;
+            
         }
         .banner_header{
             margin: 0;
@@ -1738,6 +1739,7 @@ background: #FFF;
             width: 288px;
             height: 368px;
             margin: 0;
+            margin-top: 56px;
             padding: 0;
         }
         .banner_form_header{
