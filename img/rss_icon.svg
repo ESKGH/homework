@@ -1,7 +1,15 @@
-<svg width="45.383301" height="45.383301" viewBox="0 0 45.3833 45.3833" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="64.000000" height="64.000000" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<desc>
 			Created with Pixso.
 	</desc>
-	<defs/>
-	<path id="Vector" d="M0 0L0 8.25415C20.5042 8.25415 37.1292 24.8792 37.1292 45.3833L45.3833 45.3833C45.3833 20.3292 25.0542 0 0 0ZM0 16.5083L0 24.7625C11.375 24.7625 20.6208 34.0083 20.6208 45.3833L28.875 45.3833C28.875 29.4292 15.9542 16.5083 0 16.5083Z" fill="#CCCCCC" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<defs>
+		<clipPath id="clip5017_2793">
+			<rect id="rss_icon" width="64.000000" height="64.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="rss_icon" width="64.000000" height="64.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip5017_2793)">
+		<path id="Vector" d="M22.2935 47.5201C22.2935 50.7307 19.6907 53.3335 16.4801 53.3335C13.2694 53.3335 10.6667 50.7307 10.6667 47.5201C10.6667 44.3094 13.2694 41.7068 16.4801 41.7068C19.6907 41.7068 22.2935 44.3094 22.2935 47.5201Z" fill="#CCCCCC" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector" d="M10.6667 11.84L10.6667 19.3866C29.4135 19.3866 44.6134 34.5867 44.6134 53.3333L52.16 53.3333C52.16 30.4266 33.5734 11.84 10.6667 11.84ZM10.6667 26.9333L10.6667 34.48C21.0668 34.48 29.5201 42.9333 29.5201 53.3333L37.0668 53.3333C37.0668 38.7466 25.2534 26.9333 10.6667 26.9333Z" fill="#CCCCCC" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
 </svg>
