@@ -1,15 +1,15 @@
-<svg width="64.000000" height="64.000000" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="70.000000" height="70.000000" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<desc>
 			Created with Pixso.
 	</desc>
 	<defs>
-		<clipPath id="clip5017_2793">
-			<rect id="rss_icon" width="64.000000" height="64.000000" fill="white" fill-opacity="0"/>
+		<clipPath id="clip2255_4">
+			<rect id="rss_icon" width="70.000000" height="70.000000" fill="white" fill-opacity="0"/>
 		</clipPath>
 	</defs>
-	<rect id="rss_icon" width="64.000000" height="64.000000" fill="#FFFFFF" fill-opacity="0"/>
-	<g clip-path="url(#clip5017_2793)">
-		<path id="Vector" d="M22.2935 47.5201C22.2935 50.7307 19.6907 53.3335 16.4801 53.3335C13.2694 53.3335 10.6667 50.7307 10.6667 47.5201C10.6667 44.3094 13.2694 41.7068 16.4801 41.7068C19.6907 41.7068 22.2935 44.3094 22.2935 47.5201Z" fill="#CCCCCC" fill-opacity="1.000000" fill-rule="evenodd"/>
-		<path id="Vector" d="M10.6667 11.84L10.6667 19.3866C29.4135 19.3866 44.6134 34.5867 44.6134 53.3333L52.16 53.3333C52.16 30.4266 33.5734 11.84 10.6667 11.84ZM10.6667 26.9333L10.6667 34.48C21.0668 34.48 29.5201 42.9333 29.5201 53.3333L37.0668 53.3333C37.0668 38.7466 25.2534 26.9333 10.6667 26.9333Z" fill="#CCCCCC" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<rect id="rss_icon" width="70.000000" height="70.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip2255_4)">
+		<path id="Vector" d="M24.3833 51.975C24.3833 55.4867 21.5366 58.3334 18.025 58.3334C14.5134 58.3334 11.6666 55.4867 11.6666 51.975C11.6666 48.4634 14.5134 45.6167 18.025 45.6167C21.5366 45.6167 24.3833 48.4634 24.3833 51.975Z" fill="#CCCCCC" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector" d="M11.6666 12.95L11.6666 21.2041C32.1708 21.2041 48.7958 37.8291 48.7958 58.3333L57.0499 58.3333C57.0499 33.2792 36.7208 12.95 11.6666 12.95ZM11.6666 29.4583L11.6666 37.7124C23.0416 37.7124 32.2875 46.9583 32.2875 58.3333L40.5416 58.3333C40.5416 42.3792 27.6208 29.4583 11.6666 29.4583Z" fill="#CCCCCC" fill-opacity="1.000000" fill-rule="nonzero"/>
 	</g>
 </svg>
